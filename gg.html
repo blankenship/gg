@@ -44,7 +44,7 @@
 
 		header {
 			margin: 50px auto;
-			max-width: 80vmax;
+			max-width: 90vmax;
 			padding: 50px 0;
 		}
 
@@ -54,11 +54,18 @@
 			-webkit-box-shadow: 0 20px 12px -12px #ada78e;
 			-moz-box-shadow: 0 20px 12px -12px #ada78e;
 			box-shadow: 0 20px 12px -12px #ada78e;
+			-webkit-filter: grayscale(1);
+			filter: grayscale(100%);
+			-webkit-backface-visibility: hidden;
+			mix-blend-mode: multiply;
 		}
 
 		header h1 { display: none; }
 
-		header h2 { font-weight: 400; }
+		header h2 { 
+			font-weight: 400; 
+			margin-bottom: 50px;
+		}
 
 		hgroup img { 
 			margin: 0 auto;
