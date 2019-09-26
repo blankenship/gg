@@ -97,10 +97,19 @@
 		}
 
 		section figure {
-				display: grid;
-			    grid-template-columns: 60% 40%;
-			    margin: 0;
-			}
+			display: grid;
+		    grid-template-columns: 60% 40%;
+		    margin: 0;
+		}
+
+		section figure img {
+			-webkit-filter: grayscale(1);
+			filter: grayscale(100%);
+			-webkit-backface-visibility: hidden;
+			mix-blend-mode: multiply;
+			width: 100%;
+		}
+		
 	</style>
 </head>
 
