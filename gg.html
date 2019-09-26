@@ -60,17 +60,30 @@
 			mix-blend-mode: multiply;
 		}
 
+		header figure img:hover {
+			filter: grayscale(0%);
+			mix-blend-mode: multiply;
+		}
+
 		header h1 { display: none; }
 
 		header h2 { 
 			font-weight: 400; 
 			margin-bottom: 50px;
+			max-width: 50vmax;
 		}
 
 		hgroup img { 
 			margin: 0 auto;
 			width: 30%; 
 		}
+
+		p small {
+			font-weight: 700;
+			letter-spacing: 2px;
+			text-transform: uppercase;
+		}
+
 
 	</style>
 </head>
@@ -88,16 +101,13 @@
 				<img src="@images/FPO.yard.jpg">
 			</figure>
 
-			<p class="text-center"><small>We believe in holistic horticulture</small></p>
-			<h2 class="bottom text-center">Bringing you maintenance-minded yard design, upkeep, and installation. Each yard is considered and crafted by Steven and Blake, ensuring quality from spade to blade.</h2>
+			<p><small>We believe in holistic horticulture</small></p>
+			<h2>Bringing you maintenance-minded yard design, upkeep, and installation. Each yard is considered and crafted by Steven and Blake, ensuring quality from spade to blade.</h2>
 		</div>
 	</header>
 
 	<section>
 		<h3 class="center">We Do</h3>
-		<figure>
-			<img src="http://fillmurray.com/500">
-		</figure>
 		<ul>
 			<li>Landscape Design</li>
 			<li>Horticulture Consulting</li>
